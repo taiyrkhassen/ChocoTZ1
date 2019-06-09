@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="16dp">
+
+    <TextView
+         android:id="@+id/name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:fontFamily="monospace"
+         android:textSize="30dp"
+         android:text="Kosmo"
+         android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_below="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/pages"
+        android:textSize="20dp"
+        android:text="856 pages"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_alignParentRight="true"
+        android:text="1856tg"
+        android:textSize="24dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+
+</RelativeLayout>

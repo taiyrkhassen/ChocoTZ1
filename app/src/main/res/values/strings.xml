@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChocoTZ1</string>
+    <string name="title_activity_recycler">RecyclerActivity</string>
+    <string name="title_activity_book_list">BookListActivity</string>
+</resources>
